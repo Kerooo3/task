@@ -1,0 +1,250 @@
+/* Start rules  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style: none;
+}
+
+.container{
+    width: 1140px ;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    
+}
+
+/* End rules  */
+
+header{
+    background-image: url(img/xhero_2.jpg.pagespeed.ic._xYTRIlPTB.webp);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+}
+.opacity{
+    background-color:#343a40;
+    opacity: 0.3;
+    height: 100vh;
+}
+nav{
+    padding: 0px 20px;
+    height: 80px;
+    background-color: white;
+    width: 75%;   
+    position: absolute;
+    top: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.classyads{
+    align-items: center;
+    font-size: 21px;
+}
+.classy{
+    color: black;
+}
+.ads{
+    color: rgb(48, 227, 202);;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu a{
+    font-size: 16.5px;
+    padding: 7px;
+}
+.menu .sign {
+    padding: 0px 30px 0px 50px;
+}
+.menu a:hover {
+    color: aqua;
+    transition: 0.2s;
+}
+.nav_button{
+    border-style: none;
+    padding: 8px;
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    width: 120px;
+    background-color: rgb(48, 227, 202);
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+main .topic h1{
+    color: white;
+    margin: 0;
+}
+main .topic p{
+    color: rgba(255, 255, 255, 0.418);
+    font-size: 17px;
+}
+.search_box{
+    background-color: rgba(255, 255, 255, 0.3);
+    height: 70px;
+    width: 1000px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+main .search_box #search{
+    height: 40px;
+    width: 300px;
+    border-style: none;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+main .search_box #location{
+    height: 40px;
+    width: 200px;
+    border-style: none;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+main .search_box #options{
+    height: 40px;
+    width: 220px;
+    border-style: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    color: #888;
+}
+main .search_box .search_button{
+    border-style: none;
+    padding: 8px;
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    width: 120px;
+    background-color: rgb(48, 227, 202);
+}
+.statitics{
+    position: relative;
+}
+.statistics_box{
+    position: absolute;
+    bottom: -90px;
+    background-color: white;
+    height: 150px;
+    width: 1000px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 0px 50px;
+}
+.real_estate i{
+    font-size: 25px;
+    color: rgb(48, 227, 202);
+    padding-bottom: 5px;
+}
+.real_estate h5{
+    color: #888;
+}
+.real_estate p{
+    background-color:#dedede;;
+    height: 25px;
+    border-radius: 15px;
+}
+.book_magasine i{
+    font-size: 25px;
+    color: rgb(48, 227, 202);
+    padding-bottom: 5px;
+}
+.book_magasine h5{
+    color: #888;
+}
+.book_magasine p{
+    background-color:#dedede;;
+    height: 25px;
+    border-radius: 15px;
+}
+.furniture i{
+    font-size: 25px;
+    color: rgb(48, 227, 202);
+    padding-bottom: 5px;
+}
+.furniture h5{
+    color: #888;
+}
+.furniture p{
+    background-color:#dedede;;
+    height: 25px;
+    border-radius: 15px;
+}
+.electronics i{
+    font-size: 25px;
+    color: rgb(48, 227, 202);
+    padding-bottom: 5px;
+}
+.electronics h5{
+    color: #888;
+}
+.electronics p{
+    background-color:#dedede;;
+    height: 25px;
+    border-radius: 15px;
+}
+.cars_vechicels i{
+    font-size: 25px;
+    color: rgb(48, 227, 202);
+    padding-bottom: 5px;
+}
+.cars_vechicels h5{
+    color: #888;
+}
+.cars_vechicels p{
+    background-color:#dedede;;
+    height: 25px;
+    border-radius: 15px;
+}
+.others i{
+    font-size: 25px;
+    color: rgb(48, 227, 202);
+    padding-bottom: 5px;
+}
+.others h5{
+    color: #888;
+}
+.others p{
+    background-color:#dedede;;
+    height: 25px;
+    border-radius: 15px;
+}
+.real_estate:hover,.real_estate p:hover , .real_estate h5 :hover{
+    background-color: aqua;
+    margin-bottom: 30px;
+    transition: 0.5s;   
+}
+.featured{
+    background-color: #f8f9fa;
+    height: 500px;
+    
+}
